@@ -5,7 +5,8 @@ body {
 
 #calc-contain {
     position: relative;
-    width: 400px;
+    height: 450px;
+    width: 500px;
     border: 2px solid black;
     border-radius: 10px;
     margin: 115px auto;
@@ -27,13 +28,14 @@ body {
 
 input[type=button] {
     background: deeppink;
-    font-size: 25px;
+    font-size: 35px;
     width: 60px;
     font-weight: bolder;
     border-radius: 8px;
-    margin: 15px;
+    margin: 30px;
     font-family: "Calibri Light" , sans-serif;
     border-color: black;
+
 }
 
 input[type=button]:active {

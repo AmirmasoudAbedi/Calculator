@@ -1,0 +1,69 @@
+body {
+    font-family: "Calibri Light" , sans-serif;
+    background-color: seagreen;
+}
+
+#calc-contain {
+    position: relative;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 115px auto;
+    background-color: springgreen;
+    padding: 20px 20px 100px 20px;
+}
+
+#intrd {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+}
+
+#intrd p {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+input[type=button] {
+    background: deeppink;
+    font-size: 25px;
+    width: 60px;
+    font-weight: bolder;
+    border-radius: 8px;
+    margin: 15px;
+    font-family: "Calibri Light" , sans-serif;
+    border-color: black;
+}
+
+input[type=button]:active {
+    display: inline;
+    background-color: #ff7ff2;
+    transform: scale(130%,130%);
+    font-family: "Calibri Light" , sans-serif;
+}
+
+input[type=button]:hover {
+    display: inline-block;
+    text-decoration: unset;
+    transition: .2s;
+}
+
+input[type=text] {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 4px 0px 12px darkslategrey;
+    border-radius: 10px;
+    font-family: "Calibri Light" , sans-serif;
+    outline-color: #3e8e41;
+}
+
+#head{
+    margin-top: 35px;
+    font-family: Recoleta , sans-serif;
+    font-weight: bold;
+}
